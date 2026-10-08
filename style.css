@@ -292,3 +292,51 @@ textarea { resize: vertical; }
   .service-grid-wide, .approach-four { grid-template-columns: 1fr; }
   .session-prices > div { display: grid; gap: 2px; }
 }
+
+
+/* Profile photo */
+.profile-image-panel {
+  min-height: 560px;
+  align-items: end;
+  background: var(--warm);
+}
+.profile-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+.profile-image-panel .image-caption {
+  z-index: 3;
+}
+
+/* Testimonials */
+.testimonials {
+  background: var(--warm);
+}
+.testimonial-card {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-card blockquote {
+  margin: 0;
+  font: 500 25px/1.35 "Cormorant Garamond", Georgia, serif;
+  max-width: none;
+}
+.testimonial-author {
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--green-dark) !important;
+  font-weight: 600;
+}
+
+
+@media (max-width: 700px) {
+  .profile-image-panel {
+    min-height: 430px;
+    border-radius: 100px 100px 24px 24px;
+  }
+}
