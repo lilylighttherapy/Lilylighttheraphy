@@ -7,7 +7,7 @@ Static GitHub Pages website for Lily & Light.
 - `style.css` — responsive styling
 - `script.js` — mobile navigation and WhatsApp enquiry form
 - `jenefa.jpg` — Jenefa's profile photo
-- `logo.svg` — lightweight website logo
+- `logo.png` — lightweight website logo
 - `favicon.svg` — browser icon
 - `privacy.html` — privacy information
 - `disclaimer.html` — website disclaimer
