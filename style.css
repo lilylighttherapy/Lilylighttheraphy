@@ -387,3 +387,10 @@ textarea { resize: vertical; }
     font-size: clamp(36px, 9vw, 46px);
   }
 }
+/* Display original Lily & Light logo */
+.footer-logo {
+  filter: none;
+  opacity: 1;
+  width: 210px;
+  height: auto;
+}
